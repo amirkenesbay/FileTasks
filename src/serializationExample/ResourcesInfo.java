@@ -1,11 +1,11 @@
-package SerializationExample;
+package serializationExample;
 
 import java.io.Serializable;
 
-public class DiplomacyInfo implements Serializable {
+public class ResourcesInfo implements Serializable {
     private String info;
 
-    public DiplomacyInfo(String info) {
+    public ResourcesInfo(String info) {
         this.info = info;
     }
 
@@ -19,7 +19,7 @@ public class DiplomacyInfo implements Serializable {
 
     @Override
     public String toString() {
-        return "DiplomacyInfo{" +
+        return "ResourcesInfo{" +
                 "info='" + info + '\'' +
                 '}';
     }

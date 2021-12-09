@@ -1,4 +1,4 @@
-package FileExample;
+package fileExample;
 
 import java.io.*;
 

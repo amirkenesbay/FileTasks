@@ -1,4 +1,4 @@
-package FileSaves;
+package fileSaves;
 
 import java.io.*;
 import java.util.ArrayList;
